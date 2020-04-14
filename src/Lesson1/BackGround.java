@@ -2,7 +2,7 @@ package Lesson1;
 
 import java.awt.*;
 
-public class BackGround  {
+public class BackGround extends Sprite  {
     private  float time;
     private Color color;
 
@@ -11,11 +11,11 @@ public class BackGround  {
 
     }
 
-    public void settime(float time){
-        this.time = time;
+    void render (GameCanvas canvas, Graphics g){
+
     }
-    public void info(){
-        System.out.println(time);
+    void update (GameCanvas canvas, float deltatime){
+
     }
 
 
